@@ -22,7 +22,6 @@ print('map: ', list(map(lambda d: d**2, tempX)))
 # iterable 待迭代处理的集合
 # initializer 初始值，可以没有，相当于 集合 多了一个元素，第一个元素是initializer的值
 # 用传给 reduce 中的函数 function（有两个参数）先对集合中的第 1、2 个元素进行操作，得到的结果再与第三个数据用 function 函数运算，最后得到一个结果
-# 对sequence中的item顺序迭代调用function
 tempY = reduce(lambda d, y: d*2, tempX, 10)
 print('reduce: ', tempY)
 
