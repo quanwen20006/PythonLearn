@@ -26,7 +26,7 @@ class Student(object):
     @classmethod
     def countSum(cls):
         cls.__count += 1
-        #print(cls.count)
+        print(cls.__count)
 
     @staticmethod
     def add(x, y):
